@@ -1,0 +1,88 @@
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0; /* Tricky: override browser default */
+  padding: 80px;
+  font-family: "Roboto", sans-serif;
+  font-size: 16px; /* Set baseline font-size for whole page */
+  background-color: cornflowerblue;
+  color: white;
+  text-align: center;
+}
+
+.logo img {
+    height: 35px;
+}
+
+.demo-form{
+    margin-bottom: 20px;
+    margin-top: 20px
+}
+
+form {
+    margin: 0 auto;
+    color: black;
+    background-color: white;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    padding-left: 40px;
+    padding-right: 40px;
+    width: 400px;
+}
+
+legend {
+    font-size: 25px;
+}
+
+fieldset {
+    margin: 0 auto;
+    padding: 0;
+    border: none;
+}
+
+.row{
+    margin: 10px;
+    
+}
+.field-label{
+    text-align: left;
+    font-size: 15px;
+    font-weight: 300;
+}
+
+.inputs{
+    height: 55px;
+    width: 320px;
+    padding: 15px;
+    border-width: 2px;
+    border-style: solid;
+    border-color: lightgrey;
+}
+
+
+
+button{
+    background-color: darkseagreen;
+    color: white;
+}
+
+/* mouse over link */
+button:hover {
+    background-color: green;
+}
+
+
+/* unvisited link */
+a:link {
+    color: white;
+}
+
+/* visited link */
+a:visited {
+    color: white;
+}
+
+
